@@ -1,15 +1,20 @@
-#include "hm02.h"
+#include "line.h"
+#include "dot.h"
 
 int main()
-{
-    int x3, y3;
-    Line line(0,0,0,0);
-    line.getCord1();
-    line.getCord2();
+{   Dot dot1;
+    Dot dot2;
+    dot1.setX();
+    dot1.setY();
+    dot2.setX();
+    dot2.setY();
+    Line line(dot1, dot2);
+    Dot dot3;
+    dot3.setX();
+    dot3.setY();
+    line.getLine();
     line.showLine();
-    std::cout << "Enter X and Y cord for dot" << std::endl;
-    std::cin >> x3 >> y3;
-    line.checkDot(x3,y3);
-    line.getDistanceBetweenDotAndLine(x3,y3);
+    double distance = line.getDistance(dot3);
+    line.checkDotAndDistance(dot3, distance);
     return 0;
 }
