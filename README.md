@@ -1,5 +1,5 @@
 TKI-141 VADIM TKACHEV VARIANT9
 ╠╬╬╬╣
-╠╬╬╬╣OK! WHO ATE MY
-╠╬╬╬╣CHOCOLATE!!
+╠╬╬╬╣
+╠╬╬╬╣
 ╚╩╩╩╝
