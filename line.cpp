@@ -1,8 +1,14 @@
 #include "line.h"
 #include "dot.h"
 
+/**
+* @brief Constructor of class Line
+*/
 Line::Line(Dot dot1, Dot dot2): dot1(dot1), dot2(dot2) {}
 
+/**
+* @brief function to get Line
+*/
 void Line::getLine()
 {
     double x1 = dot1.getX();
@@ -11,6 +17,9 @@ void Line::getLine()
     double y2 = dot2.getY();
 }
 
+/**
+* @brief function to show Line
+*/
 void Line::showLine()
 {
     std::cout << "Dot1: " << std::endl;
@@ -19,6 +28,11 @@ void Line::showLine()
     dot2.showDot();
 }
 
+/**
+* @brief function to get Distance
+* @param dot3 - third dot
+* @return distance
+*/
 double Line::getDistance(Dot dot3)
 {
     double distance = abs((dot2.getY() - dot1.getY()) * dot3.getX() 
@@ -30,9 +44,14 @@ double Line::getDistance(Dot dot3)
     return distance;
 }
 
+/**
+* @brief function to check Dot and Distance
+* @param dot3 - third dot
+* @param distance - distance
+*/
 void Line::checkDotAndDistance(Dot dot3, double distance)
 {
-    if (distance <= 1e-6)
+    if (distance <= std::numeric_limits<double>::epsilon())
     {
         std::cout << "Dot is on line" << std::endl;
     }

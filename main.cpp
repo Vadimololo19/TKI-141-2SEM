@@ -1,6 +1,9 @@
 #include "line.h"
 #include "dot.h"
-
+/**
+* @brief Main function of program
+* @return 0, if everything is ok,else 1
+*/
 int main()
 {   Dot dot1;
     Dot dot2;
