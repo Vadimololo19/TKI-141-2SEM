@@ -12,27 +12,29 @@ double Dot::getY() const { return y; }
 
 /**
 * @brief function to set X of Dot
+* @param newX - new X
 */
-void Dot::setX() 
+void Dot::setX(double newX) 
 {
-    std::cout << "Enter X of Dot" << std::endl;
-    std::cin >> x;
+    x = newX;
 }
 
 /**
 * @brief function to set Y of Dot
+* @param newY - new Y
 */
-void Dot::setY() 
+void Dot::setY(double newY) 
 {
-    std::cout << "Enter Y of Dot" << std::endl;
-    std::cin >> y;
+    y = newY;
 }
 
 /**
-* @brief function to show Dot
-*/
-void Dot::showDot()
+* @brief function to overload << operator
+* @param os - output stream
+* @param dot - Dot
+* @return output stream
+std::ostream& operator<<(std::ostream& os, const Dot& dot)
 {
-    std::cout << "X: " << x << std::endl;
-    std::cout << "Y: " << y << std::endl;
+    os << "X: " << dot.getX() << ", Y: " << dot.getY();
+    return os;
 }

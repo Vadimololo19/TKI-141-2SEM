@@ -7,25 +7,16 @@
 Line::Line(Dot dot1, Dot dot2): dot1(dot1), dot2(dot2) {}
 
 /**
-* @brief function to get Line
+* @brief function to overload << operator
+* @param os - output stream
+* @param line - Line
+* @return output stream
 */
-void Line::getLine()
+std::ostream& operator<<(std::ostream& os, const Line& line)
 {
-    double x1 = dot1.getX();
-    double y1 = dot1.getY();
-    double x2 = dot2.getX();
-    double y2 = dot2.getY();
-}
-
-/**
-* @brief function to show Line
-*/
-void Line::showLine()
-{
-    std::cout << "Dot1: " << std::endl;
-    dot1.showDot();
-    std::cout << "Dot2: " << std::endl;
-    dot2.showDot();
+    os << line.dot1 << std::endl;  
+    os << line.dot2 << std::endl;
+    return os;
 }
 
 /**
@@ -49,7 +40,7 @@ double Line::getDistance(Dot dot3)
 * @param dot3 - third dot
 * @param distance - distance
 */
-void Line::checkDotAndDistance(Dot dot3, double distance)
+void Line::checkDotAndDistance(double distance)
 {
     if (distance <= std::numeric_limits<double>::epsilon())
     {

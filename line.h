@@ -27,15 +27,14 @@ class Line
     */
     Line(Dot dot1, Dot dot2);
 
+    
     /**
-    * @brief Method to show line
+    * @brief Friend function to overload << operator
+    * @param os Output stream
+    * @param line Line object
+    * @return Reference to output stream
     */
-    void showLine();
-
-    /**
-    * @brief Method to get line
-    */
-    void getLine();
+    friend std::ostream& operator<<(std::ostream& os, const Line& line);
 
     /**
     * @brief Method to get distance between dot and line
@@ -49,7 +48,7 @@ class Line
     * @param dot3 Dot
     * @param distance Distance between dot and line
     */
-    void checkDotAndDistance(Dot dot3, double distance);
+    void checkDotAndDistance(double distance);
 
 };
 

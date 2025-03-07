@@ -41,17 +41,20 @@ class Dot
         double getY() const;
 
         /** 
-         * @brief Show x and y coordinates
-        */
-        void showDot();
-
-        /** 
          * @brief Set x coordinate
         */
-        void setX();
+        void setX(double newX);
 
         /** 
          * @brief Set y coordinate
         */
-        void setY();
+        void setY(double newY);
+
+        /**
+         * @brief Friend function to overload << operator
+         * @param os Output stream
+         * @param line Line object
+         * @return Reference to output stream
+        */
+        friend std::ostream& operator<<(std::ostream& os, const Dot& dot);
 };
