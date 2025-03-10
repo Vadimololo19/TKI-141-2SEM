@@ -33,6 +33,7 @@ void Dot::setY(double newY)
 * @param os - output stream
 * @param dot - Dot
 * @return output stream
+*/
 std::ostream& operator<<(std::ostream& os, const Dot& dot)
 {
     os << "X: " << dot.getX() << ", Y: " << dot.getY();
