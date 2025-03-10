@@ -40,16 +40,6 @@ class Dot
         */
         double getY() const;
 
-        /** 
-         * @brief Set x coordinate
-        */
-        void setX(double newX);
-
-        /** 
-         * @brief Set y coordinate
-        */
-        void setY(double newY);
-
         /**
          * @brief Friend function to overload << operator
          * @param os Output stream
@@ -57,4 +47,12 @@ class Dot
          * @return Reference to output stream
         */
         friend std::ostream& operator<<(std::ostream& os, const Dot& dot);
+        
+        /**
+         * @brief Friend function to overload == operator
+         * @param os Output stream
+         * @param line Line object
+         * @return Reference to output stream
+        */
+        bool operator==(const Dot& dot) const;
 };
