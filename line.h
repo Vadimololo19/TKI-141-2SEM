@@ -18,6 +18,16 @@ class Line
     * @brief Second dot of line
     */
     Dot dot2;
+    
+    /**
+     * @brief Slope of line
+     */
+    double k;
+
+    /**
+    * @brief Intercept of line
+    */
+    double b;
     public:
 
     /**
@@ -42,13 +52,6 @@ class Line
     * @return Distance between dot and line
     */
     double getDistance(Dot dot3);
-
-    /**
-    * @brief Method to check dot and distance
-    * @param dot3 Dot
-    * @param distance Distance between dot and line
-    */
-    void checkDotAndDistance(double distance);
 
 };
 

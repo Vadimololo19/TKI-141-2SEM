@@ -21,11 +21,11 @@ Dot getDot();
 Line getLine();
 
 /**
-* @brief function to check Dots
-* @param dot1 first Dot
-* @param dot2 second Dot
+* @brief function to check Dot and Distance
+* @param dot3 - third dot
+* @param distance - distance
 */
-void checkDots(Dot dot1,Dot dot2);
+void checkDotAndDistance(double distance);
 
 /**
 * @brief Main function of program
@@ -38,7 +38,7 @@ int main()
     Dot dot3 = getDot();
     std::cout<<"Dot3: \n"<<dot3<<std::endl;
     double distance = line.getDistance(dot3);
-    line.checkDotAndDistance(distance);
+    checkDotAndDistance(distance);
     return 0;
 }
 
@@ -66,15 +66,18 @@ Line getLine()
 {
     Dot dot1 = getDot();
     Dot dot2 = getDot();
-    checkDots(dot1, dot2);
     return Line(dot1, dot2);
 }
 
-void checkDots(Dot dot1,Dot dot2)
+void checkDotAndDistance(double distance)
 {
-    if(dot1 == dot2)
+    if (distance <= std::numeric_limits<double>::epsilon())
     {
-        std::cout<<"Dots are equal"<<std::endl;
-        exit(1);
+        std::cout << "Dot is on line" << std::endl;
     }
+    else
+    {
+        std::cout << "Dot is not on line" << std::endl;
+    }
+    std::cout << "Distance: " << distance << std::endl;
 }

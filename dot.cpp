@@ -26,3 +26,8 @@ bool Dot::operator==(const Dot& dot) const
 {
     return x == dot.x && y == dot.y;
 }
+
+bool Dot::operator!=(const Dot& dot) const
+{
+    return x != dot.x || y != dot.y;
+}

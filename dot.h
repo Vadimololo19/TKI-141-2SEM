@@ -43,16 +43,22 @@ class Dot
         /**
          * @brief Friend function to overload << operator
          * @param os Output stream
-         * @param line Line object
+         * @param dot Line object
          * @return Reference to output stream
         */
         friend std::ostream& operator<<(std::ostream& os, const Dot& dot);
         
         /**
-         * @brief Friend function to overload == operator
-         * @param os Output stream
-         * @param line Line object
-         * @return Reference to output stream
+         * @brief function to overload == operator
+         * @param dot Dot object
+         * @return True or false
         */
         bool operator==(const Dot& dot) const;
+
+        /**
+         * @brief function to overload != operator
+         * @param dot Dot object
+         * @return True or false
+        */
+        bool operator!=(const Dot& dot) const;
 };
