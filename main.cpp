@@ -25,5 +25,17 @@ int main() {
     std::cout << "Serialized Student:\n";
     std::cout << student1.ToString() << "\n\n";
 
+    Group group2("TKI-142");
+
+    speciality1.addGroup(group2);
+
+    Student student2("Alphabet", "Gaspareyrov", group2, speciality1, department1, institute1);
+
+    std::cout << "Student Information:\n";
+    std::cout << student2 << "\n\n";
+
+    std::cout << "Serialized Student:\n";
+    std::cout << student2.ToString() << "\n\n";
+
     return 0;
 }
