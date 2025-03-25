@@ -36,6 +36,8 @@ int main() {
 
     std::cout << "Serialized Student:\n";
     std::cout << student2.ToString() << "\n\n";
-
+    
+    std::cout << "Serialized Speciality:\n";
+    std::cout << speciality1.ToString() << "\n\n";
     return 0;
 }
