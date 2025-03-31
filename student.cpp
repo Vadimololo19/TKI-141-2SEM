@@ -67,7 +67,7 @@ const Institute& Student::getInstitute() const
  */
 bool Student::operator<(const Student& other) const 
 {
-    return lastName < other.lastName;
+    return lastName < other.lastName || (lastName == other.lastName && firstName < other.firstName);
 }
 
 /**
