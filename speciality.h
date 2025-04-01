@@ -5,6 +5,11 @@
 #include "group.h"
 
 /**
+ * @brief Class SpecialityDepartment represents a speciality-department.
+ */
+class SpecialityDepartment {};
+
+/**
  * @brief Class Speciality represents a student specialty.
  */
 class Speciality
@@ -16,6 +21,8 @@ private:
     /** @brief Set of groups belonging to this speciality */
     std::set<Group> groups;
 
+    /** @brief departments belonging to this speciality */
+    SpecialityDepartment department;
 public:
     /**
      * @brief Constructor for Speciality.

@@ -5,6 +5,11 @@
 #include "speciality.h"
 
 /**
+ * @brief Class DepartmentInstitute represents a department-institute.
+ */
+class DepartmentInstitute {};
+
+/**
  * @brief Class Department represents an academic department.
  */
 class Department
@@ -16,6 +21,8 @@ private:
     /** @brief Set of specialties belonging to this department */
     std::set<Speciality> specialties;
 
+    /** @brief department-institute */
+    DepartmentInstitute institute;
 public:
     /**
      * @brief Constructor for Department.

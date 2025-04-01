@@ -1,6 +1,17 @@
 #pragma once
 #include <iostream>
 #include <string>
+#include <set>
+
+/**
+ * @brief Class Student represents a student.
+ */
+class GroupStudent {};
+
+/**
+ * @brief Class Speciality represents a student speciality.
+ */
+class GroupSpeciality {};
 
 /**
  * @brief Class Group represents a student group.
@@ -11,6 +22,11 @@ private:
     /** @brief Name of the group */
     std::string name;
 
+    /** @brief Set of students in the group */
+    std::set<GroupStudent> students;
+
+    /** @brief Speciality of the group */
+    GroupSpeciality speciality;
 public:
     /**
      * @brief Default constructor for Group.
