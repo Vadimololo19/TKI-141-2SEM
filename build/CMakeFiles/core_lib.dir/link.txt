@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcore_lib.a CMakeFiles/core_lib.dir/src/main.cpp.o CMakeFiles/core_lib.dir/src/student.cpp.o CMakeFiles/core_lib.dir/src/department.cpp.o CMakeFiles/core_lib.dir/src/group.cpp.o CMakeFiles/core_lib.dir/src/institute.cpp.o CMakeFiles/core_lib.dir/src/speciality.cpp.o
+/usr/bin/ranlib libcore_lib.a

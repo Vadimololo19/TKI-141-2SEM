@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_speciality.dir/tests/test_speciality.cpp.o -o test_speciality  libcore_lib.a /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a 
