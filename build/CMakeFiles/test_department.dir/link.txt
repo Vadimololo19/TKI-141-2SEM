@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_department.dir/tests/test_department.cpp.o -o test_department  libcore_lib.a /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a 
