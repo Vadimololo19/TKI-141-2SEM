@@ -11,8 +11,8 @@ private:
      * @brief Internal structure to represent a node in the queue.
      */
     struct Node {
-        int data;       ///< Data stored in the node.
-        Node* next;     ///< Pointer to the next node.
+        int data;       
+        Node* next;     
 
         /**
          * @brief Constructor for Node.
@@ -21,9 +21,9 @@ private:
         Node(int value) : data(value), next(nullptr) {}
     };
 
-    Node* front;        ///< Pointer to the front of the queue.
-    Node* rear;         ///< Pointer to the rear of the queue.
-    size_t size;        ///< Current size of the queue.
+    Node* front;        
+    Node* rear;         
+    size_t size;        
 
 public:
     /**
