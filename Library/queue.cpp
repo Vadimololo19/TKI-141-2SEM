@@ -24,7 +24,7 @@ Queue::Queue(const Queue& other) : Queue() {
     Node* current = other.front;
     while (current) {
         enqueue(current->data);
-        current = current->next;
+        current = current->next; //current = (*current).next
     }
 }
 
