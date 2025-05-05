@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcore_lib.a CMakeFiles/core_lib.dir/App/main.cpp.o CMakeFiles/core_lib.dir/Library/queue.cpp.o
+/usr/bin/ranlib libcore_lib.a
