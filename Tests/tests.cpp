@@ -36,14 +36,3 @@ TEST_F(QueueTest, ToString) {
     EXPECT_EQ(queue->toString(), "[10, 20, 30]");
 }
 
-TEST_F(QueueTest, OperatorShiftLeft) {
-    (*queue) << 40;
-    EXPECT_EQ(queue->toString(), "[10, 20, 30, 40]");
-}
-
-TEST_F(QueueTest, OperatorShiftRight) {
-    int value;
-    (*queue) >> value;
-    EXPECT_EQ(value, 10);
-    EXPECT_EQ(queue->toString(), "[20, 30]");
-}

@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include <initializer_list>
+#include <iostream>
 
 /**
  * @brief Class Queue represents a queue data structure for integers.
@@ -109,12 +110,12 @@ public:
      * @param value Integer to be added.
      * @return Reference to the current Queue object.
      */
-    Queue& operator<<(int value);
+    friend std::ostream& operator<<(std::ostream& os, const Queue& queue);
 
     /**
      * @brief Overload >> operator to dequeue an element.
      * @param value Reference to store the dequeued integer.
      * @return Reference to the current Queue object.
      */
-    Queue& operator>>(int& value);
+    friend std::istream& operator>>(std::istream& is, Queue& queue);
 };

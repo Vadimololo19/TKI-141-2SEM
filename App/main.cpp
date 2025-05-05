@@ -14,10 +14,9 @@ int main() {
     std::cout << "After dequeue(): " << queue.toString() << std::endl;
     std::cout << "Peek: " << queue.peek() << std::endl;
     std::cout << "Is queue empty? " << (queue.isEmpty() ? "Yes" : "No") << std::endl;
-    queue << 50;
     std::cout << "After queue << 50: " << queue.toString() << std::endl;
-    int shiftedValue;
-    queue >> shiftedValue;
+    int shiftedValue = 60;
+    queue.enqueue(shiftedValue);
     std::cout << "Shifted value using operator>>: " << shiftedValue << std::endl;
     std::cout << "Final queue: " << queue.toString() << std::endl;
     Queue copiedQueue = queue;

@@ -166,9 +166,18 @@ Queue& Queue::operator=(Queue&& other) noexcept {
  * @param value Integer to be added.
  * @return Reference to the current Queue object.
  */
-Queue& Queue::operator<<(int value) {
-    enqueue(value);
-    return *this;
+std::ostream& operator<<(std::ostream& os, const Queue& queue) {
+    os << "[";
+    Queue::Node* current = queue.front;
+    while (current) {
+        os << current->data;
+        if (current->next) {
+            os << ", ";
+        }
+        current = current->next;
+    }
+    os << "]";
+    return os;
 }
 
 /**
@@ -176,7 +185,8 @@ Queue& Queue::operator<<(int value) {
  * @param value Reference to store the dequeued integer.
  * @return Reference to the current Queue object.
  */
-Queue& Queue::operator>>(int& value) {
-    value = dequeue();
-    return *this;
+std::istream& operator>>(std::istream& is, Queue& queue) {
+    int value;
+    while(is >> value) {queue.enqueue(value);}
+    return is;
 }
