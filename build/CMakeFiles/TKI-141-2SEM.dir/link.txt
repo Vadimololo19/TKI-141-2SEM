@@ -1,1 +1,0 @@
-/usr/bin/c++ "CMakeFiles/TKI-141-2SEM.dir/App/main.cpp.o" "CMakeFiles/TKI-141-2SEM.dir/Library/queue.cpp.o" -o TKI-141-2SEM 

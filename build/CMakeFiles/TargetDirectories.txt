@@ -1,6 +1,0 @@
-/home/Kaguya/MIIT/Scripts/TKI-141-2SEM/build/CMakeFiles/TKI-141-2SEM.dir
-/home/Kaguya/MIIT/Scripts/TKI-141-2SEM/build/CMakeFiles/core_lib.dir
-/home/Kaguya/MIIT/Scripts/TKI-141-2SEM/build/CMakeFiles/tests.dir
-/home/Kaguya/MIIT/Scripts/TKI-141-2SEM/build/CMakeFiles/test.dir
-/home/Kaguya/MIIT/Scripts/TKI-141-2SEM/build/CMakeFiles/edit_cache.dir
-/home/Kaguya/MIIT/Scripts/TKI-141-2SEM/build/CMakeFiles/rebuild_cache.dir
