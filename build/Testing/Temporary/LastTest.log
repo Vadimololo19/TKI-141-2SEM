@@ -1,0 +1,253 @@
+Start testing: Apr 10 22:29 MSK
+----------------------------------------------------------
+1/5 Testing: test_student
+1/5 Test: test_student
+Command: "/home/Kaguya/MIIT/Scripts/TKI-141-2SEM/build/test_student"
+Directory: /home/Kaguya/MIIT/Scripts/TKI-141-2SEM/build
+"test_student" start time: Apr 10 22:29 MSK
+Output:
+----------------------------------------------------------
+Student Information:
+Student: Vadim Tkachev
+Group: Group: TKI-141
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Serialized Student:
+Student: Vadim Tkachev
+Group: Group: TKI-141
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Student Information:
+Student: Alphabet Gaspareyrov
+Group: Group: TKI-142
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Serialized Student:
+Student: Alphabet Gaspareyrov
+Group: Group: TKI-142
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Serialized Speciality:
+Speciality: Computer Security
+Groups:
+  - Group: TKI-141
+  - Group: TKI-142
+
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_student" end time: Apr 10 22:29 MSK
+"test_student" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: test_department
+2/5 Test: test_department
+Command: "/home/Kaguya/MIIT/Scripts/TKI-141-2SEM/build/test_department"
+Directory: /home/Kaguya/MIIT/Scripts/TKI-141-2SEM/build
+"test_department" start time: Apr 10 22:29 MSK
+Output:
+----------------------------------------------------------
+Student Information:
+Student: Vadim Tkachev
+Group: Group: TKI-141
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Serialized Student:
+Student: Vadim Tkachev
+Group: Group: TKI-141
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Student Information:
+Student: Alphabet Gaspareyrov
+Group: Group: TKI-142
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Serialized Student:
+Student: Alphabet Gaspareyrov
+Group: Group: TKI-142
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Serialized Speciality:
+Speciality: Computer Security
+Groups:
+  - Group: TKI-141
+  - Group: TKI-142
+
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_department" end time: Apr 10 22:29 MSK
+"test_department" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: test_group
+3/5 Test: test_group
+Command: "/home/Kaguya/MIIT/Scripts/TKI-141-2SEM/build/test_group"
+Directory: /home/Kaguya/MIIT/Scripts/TKI-141-2SEM/build
+"test_group" start time: Apr 10 22:29 MSK
+Output:
+----------------------------------------------------------
+Student Information:
+Student: Vadim Tkachev
+Group: Group: TKI-141
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Serialized Student:
+Student: Vadim Tkachev
+Group: Group: TKI-141
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Student Information:
+Student: Alphabet Gaspareyrov
+Group: Group: TKI-142
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Serialized Student:
+Student: Alphabet Gaspareyrov
+Group: Group: TKI-142
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Serialized Speciality:
+Speciality: Computer Security
+Groups:
+  - Group: TKI-141
+  - Group: TKI-142
+
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_group" end time: Apr 10 22:29 MSK
+"test_group" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: test_institute
+4/5 Test: test_institute
+Command: "/home/Kaguya/MIIT/Scripts/TKI-141-2SEM/build/test_institute"
+Directory: /home/Kaguya/MIIT/Scripts/TKI-141-2SEM/build
+"test_institute" start time: Apr 10 22:29 MSK
+Output:
+----------------------------------------------------------
+Student Information:
+Student: Vadim Tkachev
+Group: Group: TKI-141
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Serialized Student:
+Student: Vadim Tkachev
+Group: Group: TKI-141
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Student Information:
+Student: Alphabet Gaspareyrov
+Group: Group: TKI-142
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Serialized Student:
+Student: Alphabet Gaspareyrov
+Group: Group: TKI-142
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Serialized Speciality:
+Speciality: Computer Security
+Groups:
+  - Group: TKI-141
+  - Group: TKI-142
+
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_institute" end time: Apr 10 22:29 MSK
+"test_institute" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: test_speciality
+5/5 Test: test_speciality
+Command: "/home/Kaguya/MIIT/Scripts/TKI-141-2SEM/build/test_speciality"
+Directory: /home/Kaguya/MIIT/Scripts/TKI-141-2SEM/build
+"test_speciality" start time: Apr 10 22:29 MSK
+Output:
+----------------------------------------------------------
+Student Information:
+Student: Vadim Tkachev
+Group: Group: TKI-141
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Serialized Student:
+Student: Vadim Tkachev
+Group: Group: TKI-141
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Student Information:
+Student: Alphabet Gaspareyrov
+Group: Group: TKI-142
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Serialized Student:
+Student: Alphabet Gaspareyrov
+Group: Group: TKI-142
+Speciality: Computer Security
+Department: Control and security of information
+Institute: Institute of Transport Technic and Control Systems
+
+Serialized Speciality:
+Speciality: Computer Security
+Groups:
+  - Group: TKI-141
+  - Group: TKI-142
+
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_speciality" end time: Apr 10 22:29 MSK
+"test_speciality" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 10 22:29 MSK
