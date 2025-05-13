@@ -1,0 +1,6 @@
+test_student 1 0.0161281
+test_department 1 0.0161467
+test_group 1 0.0176155
+test_institute 1 0.0161833
+test_speciality 1 0.0167958
+---

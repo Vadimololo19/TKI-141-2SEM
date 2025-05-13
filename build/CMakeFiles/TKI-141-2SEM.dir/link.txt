@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/TKI-141-2SEM.dir/src/main.cpp.o" "CMakeFiles/TKI-141-2SEM.dir/src/student.cpp.o" "CMakeFiles/TKI-141-2SEM.dir/src/department.cpp.o" "CMakeFiles/TKI-141-2SEM.dir/src/group.cpp.o" "CMakeFiles/TKI-141-2SEM.dir/src/institute.cpp.o" "CMakeFiles/TKI-141-2SEM.dir/src/speciality.cpp.o" -o TKI-141-2SEM 
